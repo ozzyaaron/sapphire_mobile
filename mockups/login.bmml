@@ -1,0 +1,32 @@
+<mockup version="1.0" skin="sketch" measuredW="758" measuredH="540" mockupW="688" mockupH="510">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::iPhone" x="60" y="20" w="-1" h="-1" measuredW="282" measuredH="510" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Label" x="100" y="240" w="-1" h="-1" measuredW="64" measuredH="23" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Username</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="100" y="278" w="-1" h="-1" measuredW="60" measuredH="23" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::TextInput" x="182" y="275" w="-1" h="-1" measuredW="75" measuredH="27" zOrder="3" locked="false" isInGroup="-1"/>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::TextInput" x="182" y="237" w="-1" h="-1" measuredW="75" measuredH="27" zOrder="4" locked="false" isInGroup="-1"/>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Button" x="182" y="316" w="-1" h="-1" measuredW="54" measuredH="28" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Login</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::Title" x="138" y="158" w="-1" h="-1" measuredW="126" measuredH="56" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>LOGIN</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::StickyNote" x="390" y="20" w="358" h="510" measuredW="109" measuredH="123" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>On%20loading%20the%20login%20screen%20is%20presented.%20%0A%20%0AThis%20should%20only%20happen%20once%2C%20ever.%20</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
