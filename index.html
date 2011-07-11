@@ -7,17 +7,88 @@
     <script src="/javascripts/jquery.mobile.js"></script>
   </head>
   <body>         
-    <div data-role="page">
-      <div data-role="header">
-        <h1>Page Header</h1>
+    <div data-role="page" id="points">
+      <div data-role="header" data-position="fixed">
+        <h1>Points</h1>
       </div>
 
       <div data-role="content">
-        <p>Content</p>
+        <div class="ui-grid-b">
+          <div class="ui-block-a">Started</div>
+          <div class="ui-block-b">4</div>
+          <div class="ui-block-c">2</div>
+
+          <div class="ui-block-a">Finished</div>
+          <div class="ui-block-b">4</div>
+          <div class="ui-block-c">2</div>
+
+          <div class="ui-block-a">Accepted</div>
+          <div class="ui-block-b">4</div>
+          <div class="ui-block-c">2</div>
+
+          <div class="ui-block-a">Rejected</div>
+          <div class="ui-block-b">4</div>
+          <div class="ui-block-c">2</div>
+
+          <div class="ui-block-a">===</div>
+          <div class="ui-block-b">===</div>
+          <div class="ui-block-c">===</div>
+
+          <div class="ui-block-a">Totals</div>
+          <div class="ui-block-b">12</div>
+          <div class="ui-block-c">8</div>
+
+        </div>
       </div>
 
-      <div data-role="footer">
-        <h4>Footer</h4>
+      <div data-role="footer" data-id="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#points" data-icon="grid" data-icon-pos="top" class="ui-btn-active ui-state-persist">Points</a></li>
+            <li><a href="#entries" data-icon="grid" data-icon-pos="top">Entries</a></li>
+            <li><a href="#settings" data-icon="gear" data-icon-pos="top">Settings</a></li>
+          </ul>
+        </div><!-- /navbar -->
+      </div>
+    </div>
+    
+    <div data-role="page" id="entries">
+      <div data-role="header" data-position="fixed">
+        <h1>Entries</h1>
+      </div>
+
+      <div data-role="content">
+        <p>Entries</p>
+      </div>
+
+      <div data-role="footer" data-id="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#points" data-icon="grid" data-icon-pos="top">Points</a></li>
+            <li><a href="#entries" data-icon="grid" data-icon-pos="top" class="ui-btn-active ui-state-persist">Entries</a></li>
+            <li><a href="#settings" data-icon="gear" data-icon-pos="top">Settings</a></li>
+          </ul>
+        </div><!-- /navbar -->
+      </div>
+    </div>
+    
+    <div data-role="page" id="settings">
+      <div data-role="header">
+        <h1>Settings</h1>
+      </div>
+
+      <div data-role="content">
+        <p>Settings</p>
+      </div>
+
+      <div data-role="footer" data-id="footer" data-position="fixed">
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#points" data-icon="grid" data-icon-pos="top">Points</a></li>
+            <li><a href="#entries" data-icon="grid" data-icon-pos="top">Entries</a></li>
+            <li><a href="#settings" data-icon="gear" data-icon-pos="top" class="ui-btn-active ui-state-persist">Settings</a></li>
+          </ul>
+        </div><!-- /navbar -->
       </div>
 
     </div>
